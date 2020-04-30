@@ -1,6 +1,10 @@
-import React from "react";
+/*import React from "react";
+import { Button, UncontrolledPopover, PopoverHeader, PopoverBody } from 'reactstrap';
 
 const PhotoCard =({ date, explanation, hdurl, title }) => {
+
+
+
     return (
         <div className="photo">
             <h1>Title: {title}</h1>
@@ -11,4 +15,7 @@ const PhotoCard =({ date, explanation, hdurl, title }) => {
     );
 };
 
+
+
 export default PhotoCard;
+*/
