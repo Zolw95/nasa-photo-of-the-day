@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .App-logo {
@@ -36,3 +38,45 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-container {
+  background-image: url("/space.JPG");
+  height: auto;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+
+}
+
+.nav-container h1 {
+  color: white;
+}
+
+.nav-container nav a {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 0 15%;
+}
+
+.footer-container footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background: white;
+  color: black;
+}
+
+.footer-container p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+
+
+
